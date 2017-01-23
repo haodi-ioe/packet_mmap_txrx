@@ -1,0 +1,7 @@
+gcc -o icmp_tx icmp_tx.c
+sudo ./icmp_tx ens32
+
+
+01:53:49.067485 IP ubuntu-linggguo > 120.52.139.65: ICMP echo request, id 7284, seq 1, length 64
+01:53:49.068655 IP 120.52.139.65 > ubuntu-linggguo: ICMP echo reply, id 7284, seq 1, length 64
+01:53:49.069679 IP 1.2.3.4 > 103.77.56.27: ICMP echo reply, id 7284, seq 1, length 64
